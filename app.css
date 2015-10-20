@@ -4,15 +4,62 @@
 
 html {
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 body {
-  max-width: 400px;
+  max-width: 800px;
   margin: auto;
+}
+
+/* General Navigation Styles */
+nav {
+  overflow: hidden;
+  padding: 5px;
+
+  background: #d47716;
+}
+
+nav ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  line-height: 1.55rem;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0.2rem;
+}
+
+.nav-title {
+  font-size: 1rem;
+  margin: 0 0.2rem 0 0;
+
+  float: left;
+}
+
+.nav-title i {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border: white 2px solid;
+  padding: 2px;
+
+  color: white;
+  font-style: normal;
+  text-align: center;
+}
+
+.login-links {
+  float: right;
 }
 
 .my-text {
   float: left;
+
   width: calc(50% - 10px);
   margin: 5px;
   padding: 0 20px;
