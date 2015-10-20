@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.my-text {
+  float: left;
+  width: calc(50% - 10px);
+  margin: 5px;
+  padding: 0 20px;
+}
+
+.my-image {
+  width: 200px;
+  padding: 50px;
+  background: green;
+}
+
+.in-text-image {
+  display: inline;
+  height: 2rem;
+  vertical-align: top;
+}
+
+.inline {
+  display: inline;
+  /* Width does not work on inline elements */
+  width: 200px;
+}
+
+p {
+  background: red;
+}
+
+h3 {
+  background: blue;
+}
